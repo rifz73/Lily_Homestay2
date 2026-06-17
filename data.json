@@ -1,0 +1,131 @@
+{
+  "homestay": {
+  "name": "Lily Homestay Medan",
+  "tagline": "Your Bloom Away from Home",
+  "description": "Experience the warmth of a family home wrapped in the charm of Medan’s heritage. A cozy, peaceful retreat where blooming gardens meet cultural stories of care and comfort.",
+  "location": "Jl. Jendral Ahmad Yani No. 12, Medan City Center, North Sumatra, Indonesia",
+  "whatsapp": "60145467558",
+  "email": "hello@lilyhomestay.com",
+  "facebook": "facebook.com/lilyhomestay",
+  "instagram": "@lilyhomestay",
+  "response_hours": "Daily 8:00 AM – 10:00 PM",
+  "checkin_time": "2:00 PM",
+  "checkout_time": "11:00 AM",
+  "stats": {
+    "rating": "4.9★",
+    "guests": "200+",
+    "years": "5"
+  }
+},
+  "package": {
+    "id": "lily-suite",
+    "icon": "🌸",
+    "name": "Lily Homestay Package",
+    "tagline": "Full House · Perfect for Families & Groups",
+    "description": "Book the entire Lily Homestay for your group or family. Enjoy complete privacy with full access to all rooms, the flower garden, kitchen, and living spaces.",
+    "price_per_night": 280,
+    "currency": "RM",
+    "max_guests": 6,
+    "min_nights": 1,
+    "features": [
+      "2 Bedrooms (1 King, 1 Queen)",
+      "1 bathroom",
+      "Full kitchen access",
+      "Flower garden & outdoor area",
+      "Shared living & dining room",
+      "Fan in all rooms",
+      "High-speed WiFi (Fibre)",
+      "Smart TV & streaming",
+      "Free covered parking",
+      "Breakfast on request (+ RM25/pax)"
+    ],
+    "highlights": [
+      { "icon": "🏡", "label": "Entire House", "sub": "Full private access" },
+      { "icon": "🅿️", "label": "Free Parking", "sub": "Covered & secure" },
+      { "icon": "🌡️", "label": "Fan", "sub": "All rooms" },
+      { "icon": "🍳", "label": "Breakfast Option", "sub": "On request" }
+    ]
+  },
+"gallery": [
+  { 
+    "id": 0, 
+    "url": "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?w=800&q=80", 
+    "alt": "Cozy master bedroom in Medan homestay", 
+    "label": "🌸 Cozy Master Suite" 
+  },
+  { 
+    "id": 1, 
+    "url": "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=800&q=80", 
+    "alt": "Bright guest room with garden view in Medan", 
+    "label": "🌼 Garden View Room" 
+  },
+  { 
+    "id": 2, 
+    "url": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&q=80", 
+    "alt": "Traditional shared living area with local charm", 
+    "label": "🛋️ Shared Living Area" 
+  },
+  { 
+    "id": 3, 
+    "url": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80", 
+    "alt": "Dining space inspired by Medan’s culinary culture", 
+    "label": "🍽️ Dining Space" 
+  },
+  { 
+    "id": 4, 
+    "url": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&q=80", 
+    "alt": "Private bathroom in Medan homestay", 
+    "label": "🛁 Private Bathroom" 
+  },
+  { 
+    "id": 5, 
+    "url": "outdoors.jpg", 
+    "alt": "Lush garden and outdoor area in Medan", 
+    "label": "🌺 Garden & Outdoor Area" 
+  }
+],
+  "blog_posts": [
+  {
+    "id": 1,
+    "icon": "🌺",
+    "tag": "Travel Tips",
+    "title": "5 Hidden Gems in Medan You Must Visit",
+    "excerpt": "From Tjong A Fie Mansion to tucked-away Batak cultural corners — discover Medan’s secret spots beyond the tourist trail.",
+    "author": "Lily",
+    "avatar": "🌸",
+    "date": "June 2025"
+  },
+  {
+    "id": 2,
+    "icon": "🍲",
+    "tag": "Food & Culture",
+    "title": "The Ultimate Medan Food Guide for First-Timers",
+    "excerpt": "Soto Medan, Bika Ambon, and durian — a curated guide to Medan’s legendary food scene, with our personal picks.",
+    "author": "Zara",
+    "avatar": "🌼",
+    "date": "May 2025"
+  },
+  {
+    "id": 3,
+    "icon": "🌿",
+    "tag": "Homestay Life",
+    "title": "How We Grow Our Garden: A Season of Blooming",
+    "excerpt": "Behind the beauty of Lily Homestay’s signature flower garden — the story of soil, seeds, and a whole lot of love.",
+    "author": "Lily",
+    "avatar": "🌺",
+    "date": "April 2025"
+  }
+],
+
+"nearby": [
+  { "icon": "🚗", "label": "By Car", "detail": "45 min from Kualanamu International Airport · Located in Medan City Center" },
+  { "icon": "🚌", "label": "By Bus", "detail": "Damri Bus Route – stop at Medan City Hall (10 min walk)" },
+  { "icon": "🕐", "label": "Check-In / Check-Out", "detail": "Check-in: 2:00 PM · Check-out: 11:00 AM · Flexible upon request" },
+  { "icon": "🌸", "label": "Nearby Attractions", "detail": "Tjong A Fie Mansion (0 min) · Maimun Palace (10 min) · Medan Grand Mosque (12 min) · Center Point Mall (8 min)" }
+],
+
+  "accessibility_defaults": {
+    "theme": "light",
+    "font_size": "medium"
+  }
+}
