@@ -443,18 +443,22 @@ function loadMap() {
   const placeholder = document.getElementById('mapPlaceholder');
   if (!placeholder) return;
   const frame = placeholder.parentElement;
+  // Coordinate-based query keeps the map correctly centered on the homestay
+  // while remaining fully interactive — users can pan, zoom, and explore freely.
+  const lat = 3.476787;
+  const lng = 98.778528;
   frame.innerHTML = `
     <iframe
-      src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d995.6187149681052!2d98.7785282695639!3d3.4767869997811065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zM8KwMjgnMzYuNCJOIDk4wrA0Nic0NS4wIkU!5e0!3m2!1sen!2smy!4v1781674834146!5m2!1sen!2smy"
+      src="https://www.google.com/maps?q=${lat},${lng}&z=16&output=embed"
       width="100%" height="100%" style="border:none;display:block;"
       allowfullscreen="" loading="lazy"
       referrerpolicy="no-referrer-when-downgrade"
-      title="Map showing Lily Homestay location in George Town, Penang">
+      title="Interactive map showing Lily Homestay location in Medan, North Sumatra">
     </iframe>`;
 }
 
 
 // ===== GOOGLE MAPS OPEN =====
 function openGoogleMaps() {
-  window.open('https://maps.google.com/?q=George+Town+Penang+Malaysia', '_blank');
+  window.open('https://www.google.com/maps?q=3.476787,98.778528', '_blank');
 }
